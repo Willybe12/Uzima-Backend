@@ -1,18 +1,27 @@
 {
   "default_branch": "main",
   "branches": [
-    "fix/issue-1551-issue-086-add-leaderboard-time-windows",
+    "fix/issue-1544-issue-079-settle-referral-rewards",
+    "fix/issue-1561-issue-096-add-sms-provider-failure-handling",
+    "fix/issue-1562-issue-097-add-email-delivery-tracking",
+    "fix/issue-1595-issue-130-make-background-jobs-idempotent",
     "main",
     "origin"
   ],
   "parent": {
-    "fix/issue-1551-issue-086-add-leaderboard-time-windows": "main",
+    "fix/issue-1544-issue-079-settle-referral-rewards": "main",
+    "fix/issue-1561-issue-096-add-sms-provider-failure-handling": "main",
+    "fix/issue-1562-issue-097-add-email-delivery-tracking": "main",
+    "fix/issue-1595-issue-130-make-background-jobs-idempotent": "main",
     "main": null,
     "origin": "main"
   },
   "order": [
     "main",
-    "fix/issue-1551-issue-086-add-leaderboard-time-windows",
+    "fix/issue-1544-issue-079-settle-referral-rewards",
+    "fix/issue-1561-issue-096-add-sms-provider-failure-handling",
+    "fix/issue-1562-issue-097-add-email-delivery-tracking",
+    "fix/issue-1595-issue-130-make-background-jobs-idempotent",
     "origin"
   ]
 }
